@@ -35,25 +35,6 @@ To build the docker container
 
     ~$ docker build -t iris-ml .
 
-Check that the image is there.
-
-.. code-block:: bash
-
-    ~$ docker image ls
-    
-You may notice images that you no longer use. You may delete them with
-
-.. code-block:: bash
-
-    ~$ docker image rm IMAGE_ID_OR_NAME
-
-And every once and a while if you want clean up you can
-
-.. code-block:: bash
-
-    ~$ docker system prune
-
-
 Run the unittests
 -------------------
 
